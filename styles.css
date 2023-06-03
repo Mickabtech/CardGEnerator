@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+main{
+    width: 100%;
+    height: 100svh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 14rem;
+    height: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: green;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: green;
+}
+
+.modal101 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+.modalcon {
+    width: 95%;
+    max-width: 30rem;
+    background-color:  red;
+    height: 95%;
+    border-radius: 10px;
+    padding: 2rem;
+}
